@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Jamaax</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0f172a] text-white font-roboto">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 bg-[#0f172a]/90 backdrop-blur-md shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-[#7c3aed]">Anime Jamaax</h1>
+        <nav class="space-x-4">
+            <a href="#" class="hover:text-[#06b6d4] transition-colors">Accueil</a>
+            <a href="#" class="hover:text-[#06b6d4] transition-colors">Recherche</a>
+            <a href="#" class="hover:text-[#06b6d4] transition-colors">Genres</a>
+        </nav>
+    </header>
+
+    <!-- SLIDER / BANNIERE -->
+    <section class="my-6">
+        <div class="relative w-full h-60 md:h-96 bg-gradient-to-r from-[#7c3aed] to-[#06b6d4] rounded-xl flex items-center justify-center text-3xl font-bold">
+            Bienvenue sur Anime Jamaax
+        </div>
+    </section>
+
+    <!-- GRILLE ANIMES POPULAIRES -->
+    <section class="px-4">
+        <h2 class="text-xl font-bold mb-4">Animes Populaires</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+            <!-- Exemple de carte anime -->
+            <div class="bg-[#1e293b] rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform">
+                <img src="https://via.placeholder.com/300x400" alt="Anime 1" class="w-full h-60 object-cover">
+                <div class="p-3">
+                    <h3 class="font-bold text-lg">Titre Anime 1</h3>
+                    <p class="text-sm text-gray-300 mt-1">Action, Aventure</p>
+                </div>
+            </div>
+
+            <div class="bg-[#1e293b] rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform">
+                <img src="https://via.placeholder.com/300x400" alt="Anime 2" class="w-full h-60 object-cover">
+                <div class="p-3">
+                    <h3 class="font-bold text-lg">Titre Anime 2</h3>
+                    <p class="text-sm text-gray-300 mt-1">Comédie, Fantastique</p>
+                </div>
+            </div>
+
+            <!-- tu peux dupliquer plus de cartes -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-10 p-4 text-center text-gray-400">
+        &copy; 2026 Anime Jamaax. Tous droits réservés.
+    </footer>
+
+</body>
+  </html>
